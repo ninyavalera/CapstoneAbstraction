@@ -21,7 +21,6 @@ public class User {
     private int min1=0;
     private String bio1;
 
-
     public User(int id, String name, String bio, String sex, String address, String edulvl, String subject){
         this.name=name;
         this.id=id;
@@ -41,28 +40,24 @@ public class User {
     public String getSex(){
         return this.sex;
     }
-
     public void setSex(String sex) {
         this.sex = sex;
     }
     public String getAddress(){
         return this.address;
     }
-
     public void setAddress(String address) {
         this.address = address;
     }
     public String getEdulvl(){
         return this.edulvl;
     }
-
     public void setEdulvl(String edulvl) {
         this.edulvl = edulvl;
     }
     public String getSubject(){
         return this.subject;
     }
-
     public void setSubject(String subject) {
         this.subject = subject;
     }
@@ -72,7 +67,6 @@ public class User {
     public void setBio(String bio){
         this.bio=bio;
     }
-
 
     public User(int id1, String name1, String bio1, String sex1, String address1, String spec1, String edulvl1, double rate1, int hrs1, int min1){
         this.address1=address1;
